@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> String and it's Methods </title>
+</head>
+<body>
+
+    <h1> The following are Strings and it's Method </h1>
+
+    <script> 
+    
+    let name = "Rohit";
+    // This is a single string
+
+    let quality = `programmer, developer, Poet, Cricketer, Footballer`;
+    // This is how we can define multiline string
+
+    console.log(name);
+    console.log(quality);
+
+    // How to find length of a string: 
+
+    console.log(name.length);
+    console.log(quality.length);
+
+
+    // How to find index of a string: 
+
+    console.log(name.indexOf('R'));
+
+    console.log(quality.indexOf('developer'));
+
+    // lowercase and Upper case
+
+    console.log(name.toUpperCase());
+    console.log(name.toLowerCase());
+
+
+    // How to find position
+
+    console.log(name[1]);
+
+    // How to check whether a substring present in our string or not: 
+
+    console.log(quality.includes('developer'));
+    
+    // How to check startwith and endwith: 
+
+    console.log(name.startsWith('R'));
+    console.log(name.endsWith('o'));
+
+    // How to get a substring from a string: 
+
+    console.log(name.slice(2,4));
+    // first method
+
+    console.log(name.substring(1,5));
+    // second method
+
+    console.log(name.substr(1,3));
+    
+    
+    </script>
+
+</body>
+</html>

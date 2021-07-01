@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Array advance Methods </title>
+</head>
+<body>
+    <h1> Advance Array's Methods </h1>
+
+    <script> 
+    
+        // Splice Method: To delete and then add up something in array: - 
+
+        let fruits = ['Mango', 'Banana', 'Grapes', 'papaya', 'Apple'];
+
+        console.log(fruits.splice(1,1));
+        // it will remove a element of index 1 (Banana)
+
+        // if we want to add also after deleting then, 
+
+        console.log(fruits.splice(2,0, 'orange', 'date'));
+
+        console.log(fruits);
+
+        // indexof method, will tell us on which index we have a particular element: 
+
+        console.log(fruits.indexOf("Grapes"));
+
+
+        // Find method: 
+
+        let users = [
+  {id: 1, name: "Ishu"},
+  {id: 2, name: "Kashish"},
+  {id: 3, name: "Priya"}
+];
+
+let user = users.find(item => item.id == 1);
+
+alert(user.name);
+
+
+// Filter Method: 
+
+
+
+let visitors = [
+  {id: 1, name: "John"},
+  {id: 2, name: "Pete"},
+  {id: 3, name: "Mary"}
+];
+
+let listOfVisitors = visitors.filter(item => item.id < 3);
+
+console.log(listOfVisitors.name); 
+
+
+// Map Method: 
+
+
+let lengths = ["centimeter", "meter", "kilometer"].map(item => item.length);
+console.log(lengths);
+
+
+// Reduce Method: 
+
+let nums = [1, 2, 3, 4, 5];
+
+let result = nums.reduce((sum, current) => sum + current, 0);
+
+alert(result);
+
+
+
+    </script>
+</body>
+</html>

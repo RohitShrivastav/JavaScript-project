@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> For-In Loop </title>
+</head>
+<body>
+    <script>
+
+// This is how we can create an object in Java-Script
+
+        let visitor = {
+            name: "Arun", 
+            age: 22,
+            isAdmin: true
+        };
+
+        for (key in visitor){
+
+            // This is how we can print all key i.e name, age, isAdmin etc. 
+
+            console.log(key);
+
+            // This is how we can print all values i.e Arun, 22, true etc. 
+
+            console.log(visitor[key]);
+
+
+        }
+
+    </script>
+</body>
+</html>
