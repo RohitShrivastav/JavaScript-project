@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fetching data</title>
+</head>
+<body>
+    
+<h1> How to Fetch Data in APIs </h1>
+
+    <script>
+
+        debugger;
+
+        let pokemonData
+
+const jsonUrl = "https://raw.githubusercontent.com/Biuni/PokemonGO-Pokedex/master/pokedex.json";
+
+const getPokemonInfo = (pokemonName)=>{
+    console.log("function started to fetch the data for the pokemon")
+
+    fetch(jsonUrl)
+    .then( (resp)=>{
+    
+    return resp.json();
+} )
+.then( (data)=>{
+    console.log(data)
+    console.log(typeof(data));
+    pokemonData = data;
+    for(key in pokemonData.pokemon){
+        if(pokemonData.pokemon[key].name == pokemonName){
+            console.log(pokemonData.pokemon[key]);
+        }
+    }
+
+} ).catch( (error) =>{
+    console.log("Sorry there is an error in fetching your data, Please try again !!")
+} )
+
+}
+
+getPokemonInfo("Ivysaur");
+
+
+
+
+    </script>
+</body>
+</html>
