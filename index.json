@@ -1,0 +1,94 @@
+{
+    "products":  [{
+    "id": 1,
+    "name": "Solar Boost 19 M",
+    "Brand": "Adidas",
+    "Type": "Running Shoes",
+    "img": "https://rukminim1.flixcart.com/image/800/960/kg5fzww0-0/shoe/l/8/h/fw7818-adidas-crywht-cblack-coppmt-original-imafwg6ngsfzragg.jpeg?q=50",
+    "attributes": {
+      "size" : [6,7,8,9,10],
+      "color" : ["red","black","white" ]
+    },
+    "price": "15999",
+    "discount": "10%",
+    "Rating": "3+",
+    "reviews": [{
+      "num": "001",
+      "name": "KARIM AHMED",
+      "comment": "Fitting is wrost waste of money"
+    }, {
+      "num": "002",
+      "name": "Kush Sharma",
+      "comment": "Too Expensive !!"
+    }]
+  },
+    {
+    "id": 2,
+    "name": "OnePlus Buds Z Bluetooth Headset",
+    "Brand": "OnePlus",
+    "Model Name": "E502A",
+    "img": "https://rukminim1.flixcart.com/image/416/416/kg8avm80-0/headphone/5/j/8/e502a-oneplus-original-imafwgkvh7jftzdg.jpeg?q=70",
+    "attributes": {
+      "size" : "3.55mm",
+      "color" : ["silver","white" ]
+    },
+    "price": "2699",
+    "discount": "20%",
+    "reviews": [{
+      "num": "001",
+      "name": "elliot",
+      "comment": "Good fit , loved it!"
+    }],
+    "Highlights": ["With Mic:Yes", "Bluetooth version: 5", "10mm dynamic drivers with Dolby Atmos support"]
+  },
+   {
+    "id": 3,
+    "name": "APPLE iPhone 12 Pro Max (Graphite, 512 GB)",
+    "img": "https://rukminim1.flixcart.com/image/416/416/kg8avm80/mobile/5/z/w/apple-iphone-12-pro-max-dummyapplefsn-original-imafwgcy4h9c9rcm.jpeg?q=70",
+    "attributes": {
+      "Ram size" : ["256 GB","512 GB"],
+      "color" : "Graphite"
+    },
+    "price": 155900,
+    "discount": "20%",
+    "reviews": [{
+      "num": "004",
+      "name": "dom",
+      "comment": "Was never into belts , but this one is good!"
+    }]
+  },
+  {
+    "id": 4,
+    "name": "Trousers",
+    "img": "https://rukminim1.flixcart.com/image/495/594/kdqa4y80-0/trouser/3/h/v/32-asztr2408-arrow-sports-original-imafukhhytrfhvmz.jpeg?q=50",
+    "attributes": {
+      "size" : ["small","large"],
+      "color" : "Grey"
+    },
+    "price": 2000,
+    "discount": "20%",
+    "reviews": [{
+      "num": "001",
+      "name": "hom",
+      "comment": "Very Flexible,The length is almost same for each size!"
+    }]
+  },
+  {
+    "id": 5,
+    "num": "005",
+    "name": "Footwear",
+    "img": "http://bucket-name/object-name.s3-website-Region.amazonaws.com",
+    "attributes": {
+      "size" : ["small","large"],
+      "categories" : ["men","women"],
+      "color" : ["Blue","grey","white"]
+    },
+    "price": 2000,
+    "discount": "20%",
+    "reviews": [{
+      "num": "001",
+      "name": "sham",
+      "comment": "It's a very nice and beautiful product!"
+    }]
+  }
+]}
